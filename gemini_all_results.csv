@@ -1,9 +1,9 @@
-﻿Example_ID,Original_Description,Syntactic_Error_Rate_JSON,Req_Coverage_Semantic_Similarity,Structural_Complexity_Graph_Density,GED_Similarity_Heuristic,JSON_Generation_Time_s
+﻿Exemplo,Descrição Original,JSON Válido Encontrado,Tentativas,Tempo Geração JSON (s),Taxa de Erro Sintático (%),Cobertura de Requisitos (%),Complexidade Estrutural (%),GED Similaridade Heurística (%)
 1,"After management indicates that new clients are needed, the marketing team will perform a market analysis and prepare a portfolio presentation.
 When they have sent out offers to potential clients the marketing team informs management about the responses.
 Management then starts negotiations by sending out a detailed offer to the client.
 If the client accepts the offer, management will prepare a contract that will be signed.
-Otherwise, management analyzes the reason why their offer failed in order to improve in the future.",0.00%,75.71%,10.00%,66.67%,15.20s
+Otherwise, management analyzes the reason why their offer failed in order to improve in the future.",True,1,16.99s,0.00%,74.93%,12.50%,64.29%
 2,"The credit company receives the credit information from the customer, If the requested amount is greater than 1M$ an approval must be requested.
 If the requested amount is lower or equal to 1M$ the company assess the risk of the credit.
 After the assessment, if the risk is high, an approval must be requested; but if the risk is low the credit is accepted.
@@ -15,14 +15,14 @@ After the approval request, the credit could be accepted or rejected; in both ca
 The credit company collects the credit information from the customer, If the requested amount is lower or equal to 1M$ the company assess the risk of the credit.
 After the assessment, if the risk is low the credit is accepted.
 If the requested amount is greater than 1M$ or the risk of the credit is high, an approval must be requested.
-After the approval request, the credit could be accepted or rejected; in both cases, an email is sent to the customer.",0.00%,67.34%,11.82%,94.12%,16.77s
+After the approval request, the credit could be accepted or rejected; in both cases, an email is sent to the customer.",True,1,20.04s,0.00%,63.02%,11.82%,94.12%
 3,"If goods shall be shipped, the secretary clarifies who will do the shipping.
 If you have large amounts, special shipping will be necessary.
 In these cases the secretary invites three logistic companies to make offers and she selects one of them.
 In case of small amounts, normal post shipment is used.
 Therefore a package label is written by the secretary and a parcel insurance taken by the logistics department head if necessary.
 In the meantime the goods can be already packaged by the warehousemen.
-If everything is ready, the packaged goods are prepared for being picked up by the logistic company.",0.00%,55.98%,12.50%,72.00%,17.95s
+If everything is ready, the packaged goods are prepared for being picked up by the logistic company.",True,1,22.01s,0.00%,58.52%,12.50%,72.00%
 4,"The examination process can be summarised as follows. The process starts
 when the female patient is examined by an outpatient physician, who decides
 whether she is healthy or needs to undertake an additional examination. In the
@@ -44,8 +44,8 @@ whether the sample can be used for analysis or whether it is contaminated and
 a new sample is required. After the analysis is performed by a medical technical
 assistant of the lab, a lab physician validates the results. Finally, a physician
 from the outpatient department makes the diagnosis and prescribes the therapy
-for the patient.",0.00%,59.50%,5.88%,83.72%,15.60s
-5,"The Evanstonian is an upscale independent hotel. When a guest calls room service at The Evanstonian, the room-service manager takes down the order. She then submits an order ticket to the kitchen to begin preparing the food. She also gives an order to the sommelier (i.e., the wine waiter) to fetch wine from the cellar and to prepare any other alcoholic beverages. Eighty percent of room-service orders include wine or some other alcoholic beverage. Finally, she assigns the order to the waiter. While the kitchen and the sommelier are doing their tasks, the waiter readies a cart (i.e., puts a tablecloth on the cart and gathers silverware). The waiter is also responsible for nonalcoholic drinks. Once the food, wine, and cart are ready, the waiter delivers it to the guest’s room. After returning to the room-service station, the waiter debits the guest’s account. The waiter may wait to do the billing if he has another order to prepare or deliver.",0.00%,57.61%,9.85%,65.79%,18.05s
+for the patient.",True,1,24.18s,0.00%,56.50%,5.56%,86.36%
+5,"The Evanstonian is an upscale independent hotel. When a guest calls room service at The Evanstonian, the room-service manager takes down the order. She then submits an order ticket to the kitchen to begin preparing the food. She also gives an order to the sommelier (i.e., the wine waiter) to fetch wine from the cellar and to prepare any other alcoholic beverages. Eighty percent of room-service orders include wine or some other alcoholic beverage. Finally, she assigns the order to the waiter. While the kitchen and the sommelier are doing their tasks, the waiter readies a cart (i.e., puts a tablecloth on the cart and gathers silverware). The waiter is also responsible for nonalcoholic drinks. Once the food, wine, and cart are ready, the waiter delivers it to the guest’s room. After returning to the room-service station, the waiter debits the guest’s account. The waiter may wait to do the billing if he has another order to prepare or deliver.",True,1,25.19s,0.00%,57.00%,8.24%,72.50%
 6,"In a certain company an Invoice process is started.
 First the Vendor is tried to be located into the SAP system of the company.
 If it is not possible to find it a sub-process to record this new Vendor is started.
@@ -55,8 +55,8 @@ Before the request is finished it is classified in urgent and non-urgent invoice
 Whenever the Invoice is urgent this Request has a maximum 24 hr window to be finished, while if it is non-urgent it has a 1-5 working days time to be done.
 If the Vendor is already in the system or the request for new Vendor Record has finished, its SAP number is then added to the invoice and the process continues.
 The invoices can be sorted in two ways: by amount and by vendor.
-The invoices are then entered in the SAP system and the process is finished.",0.00%,70.82%,6.99%,94.74%,20.29s
-7,"Every time we get a new order from the sales department, first, one of my masters determines the necessary parts and quantities as well as the delivery date. Once that information is present, it has to be entered into our production planning system (PPS). It optimizes our production processes and creates possibly uniform work packages so that the setup times are minimized. Besides, it creates a list of parts to be procured. Unfortunately it is not coupled correctly to our Enterprise Resource Planning system (ERP), so the data must be transferred manually. By the way, that is the second step. Once all the data is present, we need to decide whether any parts are missing and must be procured or if this is not necessary. Once production is scheduled to start, we receive a notice from the system and an employee takes care of the implementation. Finally, the order will be checked again for its quality.",0.00%,72.51%,11.11%,100.00%,13.09s
+The invoices are then entered in the SAP system and the process is finished.",True,1,19.44s,0.00%,72.32%,6.54%,97.44%
+7,"Every time we get a new order from the sales department, first, one of my masters determines the necessary parts and quantities as well as the delivery date. Once that information is present, it has to be entered into our production planning system (PPS). It optimizes our production processes and creates possibly uniform work packages so that the setup times are minimized. Besides, it creates a list of parts to be procured. Unfortunately it is not coupled correctly to our Enterprise Resource Planning system (ERP), so the data must be transferred manually. By the way, that is the second step. Once all the data is present, we need to decide whether any parts are missing and must be procured or if this is not necessary. Once production is scheduled to start, we receive a notice from the system and an employee takes care of the implementation. Finally, the order will be checked again for its quality.",True,1,22.76s,0.00%,70.50%,11.11%,100.00%
 8,"This process describes how purchases work at the ACME Inc company.
 A purchase is initiated by a demand identified within a department.
 If there are enough goods in stock to satisfy this demand, then they are consumed locally and no further action is required.
@@ -66,7 +66,7 @@ First, the purchase requisition is checked on the ERP system to see whether the 
 If this is a new supplier, first it has to be created within the ERP system.
 Once it is created (or it if was already a known supplier), the purchase requisition is used to create an order template in the ERP system.
 The final step in the process is the approval of this order, which is granted by another role, called ""approver"".
-After receiving the new order template from the ERP system, he approves and triggers the purchase order.",0.00%,61.41%,10.00%,91.67%,19.66s
+After receiving the new order template from the ERP system, he approves and triggers the purchase order.",True,1,21.12s,0.00%,60.34%,9.09%,96.00%
 9,"If an insurant could be possibly subrogated against, I get information about that.
 I check that case and if the possibility is really there, I send a request for payment to the insurant and make me a reminder.
 If recourse is not possible, I close the case.
@@ -74,14 +74,14 @@ When we receive the money, I make a booking and close the case.
 If the insurant disagrees with the recourse, I’ll have to check the reasoning of that.
 If he is right, I simply close the case. 
 If he is wrong, I forward the case to a collection agency.
-It the deadline for disagreement is reached and we haven’t received any money, I forward the case to the collection agency as well.",0.00%,79.79%,7.69%,82.35%,17.99s
+It the deadline for disagreement is reached and we haven’t received any money, I forward the case to the collection agency as well.",True,1,21.48s,0.00%,77.82%,7.69%,82.35%
 10,"The process starts with the Provision Team receiving a request from a Customer.
 First, the team has to identify the necessary parts.
 If the team has any question about the request, they may ask for more information to the customer.
 Afterwards, the team needs to check if all parts are available.
 If available, they are supplied to the customer.
 Otherwise, the team must record the petition, make an order to Daisuki, and contact the customer once the team collects all parts.
-After the items are recollected by the customer, the final payment is received.",0.00%,70.60%,9.85%,92.59%,15.45s
+After the items are recollected by the customer, the final payment is received.",True,1,17.40s,0.00%,64.81%,9.85%,92.59%
 11,"The process starts with an informational meeting among the web design team.
 If this meeting is not successful, the process ends here.
 Otherwise, the team starts by creating a storyboard.
@@ -89,7 +89,7 @@ After an agreement on the storyboard, part of the team starts working on the des
 Simultaneously, the team will start to prepare an initial draft of the content.
 In case a review of the draft is needed, the marketing team will conduct this, before the web design team creates the final version of the content.
 When the development and content have been completed, the website will be built and reviewed.
-If the site is approved, the process is completed, otherwise the team goes back to the building step.",0.00%,71.51%,8.79%,85.71%,18.40s
+If the site is approved, the process is completed, otherwise the team goes back to the building step.",True,1,31.19s,0.00%,78.52%,9.62%,82.35%
 12,"When a visitor wants to become a member of Barcelona's ZooClub, the following steps must be taken.
 First of all, the customer must decide whether he wants an individual or family membership.
 If he wants an individual membership, he must prepare his personal information.
@@ -100,4 +100,4 @@ The ZooClub department also forwards the visitor's information to the marketing 
 The billing department sends the payment request to the bank.
 The bank processes the payment information and, if everything is correct, charges the payment into user's account.
 Once the payment is confirmed, the ZooClub department can print the card and deliver it to the visitor.
-In the meantime, the Marketing department makes a request to mail the Zoo Club's magazine to the visitor's home. Once the visitor receives the card, he can go home.",0.00%,81.55%,9.85%,60.24%,26.13s
+In the meantime, the Marketing department makes a request to mail the Zoo Club's magazine to the visitor's home. Once the visitor receives the card, he can go home.",True,1,26.12s,0.00%,81.60%,9.09%,58.54%

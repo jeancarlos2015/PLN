@@ -1,2 +1,2 @@
-﻿Syntactic_Error_Rate_JSON,Req_Coverage_Semantic_Similarity,Structural_Complexity_Graph_Density,GED_Similarity_Heuristic,JSON_Generation_Time_s
-0.00%,68.69%,9.53%,82.47%,17.88s
+﻿Taxa de Erro Sintático (%),Cobertura de Requisitos (%),Complexidade Estrutural (%),GED Similaridade Heurística (%),Tempo Geração JSON (s)
+0.00%,67.99%,9.47%,83.21%,22.33s
